@@ -1,0 +1,1 @@
+web: gunicorn museo_quiz.wsgi
