@@ -1,1 +1,1 @@
-web: gunicorn museo_quiz.wsgi
+web: python manage.py collectstatic && gunicorn museo_quiz.wsgi

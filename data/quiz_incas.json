@@ -1,0 +1,161 @@
+{
+  "nombre_quiz": "Quiz sobre los Incas y culturas preincaicas",
+  "descripcion": "Pon a prueba tus conocimientos sobre la civilizaci\u00F3n Inca y las culturas que la precedieron en los Andes",
+  "dificultad": "M",
+  "tiempo_por_pregunta": 15.0,
+  "preguntas": [
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 instrumento utilizaban los incas para medir el tiempo?",
+      "opciones": [
+        {"texto_opcion": "Reloj de sol", "es_correcta": true},
+        {"texto_opcion": "Astrolabio", "es_correcta": false},
+        {"texto_opcion": "Sombra de los \u00E1rboles", "es_correcta": false},
+        {"texto_opcion": "Reloj de agua", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 nombre recib\u00EDan los pueblos subordinados al imperio incaico?",
+      "opciones": [
+        {"texto_opcion": "Curacas", "es_correcta": false},
+        {"texto_opcion": "Mitmaq", "es_correcta": false},
+        {"texto_opcion": "Yanaconas", "es_correcta": true},
+        {"texto_opcion": "Ayllus", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFCu\u00E1l era el principal recurso econ\u00F3mico del Tahuantinsuyo?",
+      "opciones": [
+        {"texto_opcion": "La miner\u00EDa", "es_correcta": false},
+        {"texto_opcion": "La agricultura", "es_correcta": true},
+        {"texto_opcion": "El comercio", "es_correcta": false},
+        {"texto_opcion": "La ganader\u00EDa", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 cultura preincaica fue incorporada pac\u00EDficamente al imperio incaico?",
+      "opciones": [
+        {"texto_opcion": "Chim\u00FA", "es_correcta": true},
+        {"texto_opcion": "Nazca", "es_correcta": false},
+        {"texto_opcion": "Chav\u00EDn", "es_correcta": false},
+        {"texto_opcion": "Wari", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 nombre recib\u00EDa el jefe del Ayllu?",
+      "opciones": [
+        {"texto_opcion": "Curaca", "es_correcta": true},
+        {"texto_opcion": "Mallku", "es_correcta": false},
+        {"texto_opcion": "Apu", "es_correcta": false},
+        {"texto_opcion": "Capac", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 civilizaci\u00F3n preincaica influy\u00F3 en la religi\u00F3n inca, especialmente en la adoraci\u00F3n a Viracocha?",
+      "opciones": [
+        {"texto_opcion": "Nazca", "es_correcta": false},
+        {"texto_opcion": "Moche", "es_correcta": false},
+        {"texto_opcion": "Chav\u00EDn", "es_correcta": false},
+        {"texto_opcion": "Tiahuanaco", "es_correcta": true}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 tipo de arquitectura inca destaca por el uso de piedras encajadas sin mortero?",
+      "opciones": [
+        {"texto_opcion": "Arquitectura megal\u00EDtica", "es_correcta": true},
+        {"texto_opcion": "Arquitectura de adobe", "es_correcta": false},
+        {"texto_opcion": "Arquitectura rupestre", "es_correcta": false},
+        {"texto_opcion": "Arquitectura monumental", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 nombre recib\u00EDan las fortificaciones incaicas construidas para la defensa del imperio?",
+      "opciones": [
+        {"texto_opcion": "Tambos", "es_correcta": false},
+        {"texto_opcion": "Kallanka", "es_correcta": false},
+        {"texto_opcion": "Colcas", "es_correcta": false},
+        {"texto_opcion": "Pucaras", "es_correcta": true}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFCómo se llamaba la red de caminos inca que cubr\u00EDa m\u00E1s de 40,000 kil\u00F3metros?",
+      "opciones": [
+        {"texto_opcion": "Inka \u00D1an", "es_correcta": false},
+        {"texto_opcion": "Tambo", "es_correcta": false},
+        {"texto_opcion": "Qhapaq \u00D1an", "es_correcta": true},
+        {"texto_opcion": "Ayllu \u00D1an", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 producto agr\u00EDcola era fundamental en la dieta de los incas?",
+      "opciones": [
+        {"texto_opcion": "Papa", "es_correcta": true},
+        {"texto_opcion": "Ma\u00EDz", "es_correcta": false},
+        {"texto_opcion": "Quinua", "es_correcta": false},
+        {"texto_opcion": "Frijoles", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 importancia ten\u00EDan las llamas en la econom\u00EDa incaica?",
+      "opciones": [
+        {"texto_opcion": "Eran animales sagrados", "es_correcta": false},
+        {"texto_opcion": "Se usaban para transporte y lana", "es_correcta": true},
+        {"texto_opcion": "Se usaban solo en rituales", "es_correcta": false},
+        {"texto_opcion": "Eran fuente de alimentaci\u00F3n principal", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 nombre recib\u00EDa el mensajero oficial del imperio inca?",
+      "opciones": [
+        {"texto_opcion": "Tambo", "es_correcta": false},
+        {"texto_opcion": "Quipu", "es_correcta": false},
+        {"texto_opcion": "Chasqui", "es_correcta": true},
+        {"texto_opcion": "Curaca", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 sistema social inca obligaba a la rotaci\u00F3n de trabajo entre los habitantes?",
+      "opciones": [
+        {"texto_opcion": "Mita", "es_correcta": false},
+        {"texto_opcion": "Ayni", "es_correcta": true},
+        {"texto_opcion": "Mitmaq", "es_correcta": false},
+        {"texto_opcion": "Quipu", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 productos agr\u00EDcolas eran almacenados en los 'qollqas' o dep\u00F3sitos incas?",
+      "opciones": [
+        {"texto_opcion": "Textiles y oro", "es_correcta": false},
+        {"texto_opcion": "Papa, ma\u00EDz y coca", "es_correcta": true},
+        {"texto_opcion": "Metales preciosos", "es_correcta": false},
+        {"texto_opcion": "Herramientas y armas", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFQu\u00E9 construcciones incas eran usadas como centros administrativos y religiosos?",
+      "opciones": [
+        {"texto_opcion": "Pucaras", "es_correcta": false},
+        {"texto_opcion": "Tambos", "es_correcta": false},
+        {"texto_opcion": "Kallankas", "es_correcta": false},
+        {"texto_opcion": "Huacas", "es_correcta": true}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFCu\u00E1l es la ciudad sagrada m\u00E1s importante del imperio inca?",
+      "opciones": [
+        {"texto_opcion": "Sacsayhuam\u00E1n", "es_correcta": false},
+        {"texto_opcion": "Machu Picchu", "es_correcta": true},
+        {"texto_opcion": "Pisac", "es_correcta": false},
+        {"texto_opcion": "Ollantaytambo", "es_correcta": false}
+      ]
+    },
+    {
+      "texto_pregunta": "\u00BFCu\u00E1l es la capital del imperio incaico?",
+      "opciones": [
+        {"texto_opcion": "Cusco", "es_correcta": true},
+        {"texto_opcion": "Quito", "es_correcta": false},
+        {"texto_opcion": "La Paz", "es_correcta": false},
+        {"texto_opcion": "Lima", "es_correcta": false}
+      ]
+    }
+  ]
+}

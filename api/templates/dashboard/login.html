@@ -1,0 +1,122 @@
+{% comment %} <!-- templates/dashboard/login.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Dashboard Museo Quiz</title>
+    {% load static %}
+    <link href="{% static 'sb-admin-2/css/sb-admin-2.min.css' %}" rel="stylesheet">
+</head>
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-12 col-md-9">
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                                <img class="" src="{% static 'sb-admin-2/images/images.jpg' %}">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">¡Bienvenido al Dashboard de Museo Quiz!</h1>
+                                    </div>
+                                    <form class="user" method="post">
+                                        {% csrf_token %}
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-user" name="username" placeholder="Nombre de usuario">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-user" name="password" placeholder="Contraseña">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
+                                            Login
+                                        </button>
+                                    </form>
+                                    {% if error %}
+                                    <div class="text-center mt-3">
+                                        <p class="text-danger">{{ error }}</p>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'sb-admin-2/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'sb-admin-2/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'sb-admin-2/js/sb-admin-2.min.js' %}"></script>
+</body>
+</html> {% endcomment %}
+
+<!-- templates/dashboard/login.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Dashboard Museo Quiz</title>
+    {% load static %}
+    <link href="{% static 'sb-admin-2/css/sb-admin-2.min.css' %}" rel="stylesheet">
+    <style>
+        /* Ajuste de la imagen de login */
+        .bg-login-image {
+            background: url("{% static 'sb-admin-2/images/images.jpg' %}");
+            background-position: center;
+            background-size: cover;
+        }
+        .card {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center min-vh-100 align-items-center"> <!-- Centrado vertical -->
+            <div class="col-xl-10 col-lg-12 col-md-9">
+                <div class="card o-hidden border-0 shadow-lg">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                                <img class="" src="{% static 'sb-admin-2/images/images.jpg' %}">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">¡Bienvenido al Dashboard de Museo Quiz!</h1>
+                                    </div>
+                                    <form class="user" method="post">
+                                        {% csrf_token %}
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-user" name="username" placeholder="Nombre de usuario" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-user" name="password" placeholder="Contraseña" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
+                                            Iniciar sesión
+                                        </button>
+                                    </form>
+                                    {% if error %}
+                                    <div class="text-center mt-3">
+                                        <p class="text-danger">{{ error }}</p>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'sb-admin-2/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'sb-admin-2/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'sb-admin-2/js/sb-admin-2.min.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}Quizzes - Museo Quiz{% endblock %}
+
+{% block content %}
+<h1 class="h3 mb-2 text-gray-800">Quizzes</h1>
+<p class="mb-4">Lista de todos los quiz registrados en el sistema.</p>
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Tabla de Quizzes</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nombre Quiz</th>
+                        <th>Descripcion</th>
+                        <th>Dificultad</th>
+                        <th>T/pregunta</th>
+                        <th>Cant/preguntas</th>
+                        <th>Puntuacion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for quiz in quizzes %}
+                    <tr>
+                        <td>{{ quiz.nombre_quiz }}</td>
+                        <td>{{ quiz.descripcion }}</td>
+                        <td>{{ quiz.dificultad }}</td>
+                        <td>{{ quiz.tiempo_por_pregunta }}</td>
+                        <td>{{ quiz.cantidad_preguntas }}</td>
+                        <td>{{ quiz.puntuacion_maxima }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
